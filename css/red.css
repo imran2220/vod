@@ -64,9 +64,7 @@ blockquote.style2{
 
 #nav > ul > li:hover, 
 #nav > ul > li.current-menu-item{
-    border-bottom: 2px solid #d52b2a;
-    height: 66px;
-    border-right: 1px solid #d52b2a;
+    height: auto;
 }
 
 .testimonials-alternative-nav li a:after{

@@ -1116,14 +1116,8 @@ span.dropcap{
     width:  100%;
     z-index: 900;
     position: relative; 
-    height: 65px;
-
-    background: #111111; /* Old browsers */
-    background: -moz-linear-gradient(top,  #444444 0%, #111111 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#444444), color-stop(100%,#111111)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #444444 0%,#111111 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #444444 0%,#111111 100%); /* Opera 11.10+ */
-    background: linear-gradient(to bottom,  #444444 0%,#111111 100%); /* W3C */
+    height: 51px;
+    background: #333; /* Old browsers */
 }
 
 #nav-container select{
@@ -1167,20 +1161,16 @@ height: 100%;
 }
 
 #nav > ul > li{
-    padding: 20px 20px;
-    height: 65px;
+    padding: 17px 20px;
 
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
 
-    border-right: 1px solid #e8e8e8;
+    border-right: 1px solid #444;
 }
 
-#nav > ul > li:first-child{
-    border-left: 1px solid #e8e8e8;
-}
 
 #nav li a{
     float: none;
@@ -1208,7 +1198,7 @@ height: 100%;
     padding-top: 15px;
     margin: 0;
     top: 100%;
-    left: 0;
+    right: 0;
     z-index: 100;
 }
 
@@ -3770,7 +3760,7 @@ h5#reply-title{
 }
 .page-top-margin{ margin-bottom:30px;}
 
-.top-padding{padding-top:145px;}
+.top-padding{padding-top:130px;}
 
 
 /*************************************UPDATES*****************************/
@@ -3787,3 +3777,14 @@ h5#reply-title{
     height: 70px; 
     z-index: 9999999;
 }
+#nav li ul{
+    padding-top: 0;
+}
+#nav li ul li,
+#nav li ul li a{
+    text-align: right;
+}
+#nav li ul li:hover{
+    background: #f1f1f1;
+}
+
