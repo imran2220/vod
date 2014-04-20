@@ -76,10 +76,10 @@ h6{
 }
 
 p{
-    font: 17px 'Open Sans', Arial, sans-serif;
+    font: 17px Tahoma;
     font-weight: 400;
     line-height: 20px;
-    color: #777;
+    color: #666;
 	text-align:right;
 }
 
@@ -94,7 +94,9 @@ a{
     -ms-transition: all 0.2s ease 0s;
     transition: all 0.2s ease 0s;
 }
-
+body{
+    direction: rtl;
+}
 /* Read more button
 ----------------------------------------------------------------------------- */
 .read-more-btn{
@@ -198,20 +200,19 @@ blockquote + p{
     margin-bottom: 10px;
     text-align: center;
     font-size: 26px;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .entry-note p{
     font-size: 17px;
-    line-height: 22px;
+    line-height: 26px;
     width: 100%;
-    padding: 0 90px;
-
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-
-    text-align: center;
+    text-align: justify;
+    font-family: Tahoma;
+    font-weight: normal;
 }
 
 /* 2.2. NOTE 
@@ -343,6 +344,10 @@ blockquote + p{
 
 .section-title.center span{
     text-align: center;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color: #d20606;
 }
 
 .section-title.left h1,
@@ -1477,8 +1482,24 @@ height: 100%;
     text-transform: uppercase;
     width: 100%;
     display: block;
+    font-family: tahoma;
+    font-size: 11px;
+    font-weight: normal;
 }
-
+.post-meta .title-date h6{
+    font-size: 19px;
+}
+.post-body p,
+.read-more-btn a,
+.latest-blog-posts .post-info a{
+    font-family: Tahoma;
+    font-size: 13px;
+    color: #444;
+}
+.read-more-btn a،
+.latest-blog-posts .post-info a{
+    font-size: 11px;
+}
 
 /* ============================================================================ 
     5. ABOUT US
@@ -3115,13 +3136,6 @@ h5#reply-title{
     width: 100%;
 }
 
-.widget li{
-    background: url('../img/aside-arrow.png') no-repeat 0 10px;
-    border-bottom: 1px dotted #ddd;
-    padding-left: 28px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-}
 
 .footer-widget-container .widget li{
     border-bottom: 1px dotted #555;
@@ -3233,8 +3247,8 @@ h5#reply-title{
 .pi_recent_posts .meta{
     width: 40px;
     height: 40px;
-    margin-right: 10px;
-    float: left;
+    margin-left: 10px;
+    float: right;
     background: #333;
     cursor: pointer;
 
@@ -3388,7 +3402,7 @@ h5#reply-title{
 
 .widget .contact-info li.address{
     display: block;
-    padding-left: 36px;   
+    padding-right: 36px;   
 }
 
 .widget .contact-info li.address p{
@@ -3397,12 +3411,12 @@ h5#reply-title{
 
 .widget .contact-info li.phone{
     display: block;
-    padding-left: 36px;
+    padding-right: 36px;
 }
 
 .widget .contact-info li.mail{
     display: block;
-    padding-left: 36px;
+    padding-right: 36px;
 }
 
 /* TESTIMONIAL WIDGET 
@@ -3698,9 +3712,12 @@ h5#reply-title{
     line-height: 18px;
     color: #bbb;
 }
-
+.full-width{
+    background: #000;
+    color: #fff;
+}
 .copyright-container{
-    background: #303030;
+    
     padding: 15px 0px;
 
     box-sizing: border-box;
@@ -3710,7 +3727,7 @@ h5#reply-title{
 }
 
 .copyright-container p{
-    color: #999;
+    color: #fff;
     font-size: 11px;
     text-transform: uppercase;
 }
@@ -3735,7 +3752,7 @@ h5#reply-title{
 
 .footer-breadcrumbs li a, 
 .footer-breadcrumbs li a.active{
-    color: #aaa;
+    color: #fff;
     text-transform: uppercase;
     font-size: 11px;
 

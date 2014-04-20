@@ -157,15 +157,15 @@ blockquote.style2{
 }
 
 .widget .contact-info li.address{
-    background: url('../img/red/contact-address.png') no-repeat 0 0;
+    background: url('../img/red/contact-address.png') no-repeat 190px 0;
 }
 
 .widget .contact-info li.phone{
-    background: url('../img/red/contact-phone.png') no-repeat 0 0;
+    background: url('../img/red/contact-phone.png') no-repeat 190px 0;
 }
 
 .widget .contact-info li.mail{
-    background: url('../img/red/contact-mail.png') no-repeat 0 0;
+    background: url('../img/red/contact-mail.png') no-repeat 190px 0;
 }
 
 .btn-color span, .btn-color:hover span, 
