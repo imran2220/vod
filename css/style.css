@@ -1180,7 +1180,7 @@ height: 100%;
 #nav li a{
     float: none;
     display: block;
-    font: 12px 'Open Sans', Arial, sans-serif;
+    font: 14px Tahoma;
     color: #fff;  
 }
 
