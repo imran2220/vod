@@ -351,7 +351,6 @@ blockquote + p{
 }
 
 .section-title.left h1,
-.section-title.left h2,
 .section-title.left h3,
 .section-title.left h4,
 .section-title.left h5,
@@ -3018,7 +3017,7 @@ h5#reply-title{
 
 .wpcf7 label{
     color: #444;
-    font: 11px Arial,sans-serif;
+    font: 13px Tahoma;
     line-height: 18px;
     margin-bottom: 5px;
     display: block;
@@ -3804,4 +3803,13 @@ h5#reply-title{
 #nav li ul li:hover{
     background: #f1f1f1;
 }
-
+label{
+    font-size: 18px;
+}
+.btn-primary{
+ background-color:#e83130 !important;
+ border-color: #e83130 !important;
+}
+.section-title.left{
+    background: none;
+}
